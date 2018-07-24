@@ -1,0 +1,127 @@
+#per_foto{
+    width: 200px;
+    height: 200px;
+}
+.blo{
+    background: rgba(144, 136, 136, 0.93);
+    color: #fff;
+}        
+.base{
+            background: rgba(239, 239, 239, 0.92);
+            margin-top: 200px;
+        }
+.base_1{
+           color:#fff;
+            margin-top: 200px;
+        }
+        h4,h2,h3{
+            color: #fff;
+        }
+.log{
+   
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: fixed;
+}
+.user{
+    border-right: 1px solid #7e7676;
+}
+.bot{
+            margin-bottom: 15px;
+        }
+        .base1{
+            margin-top: 15px;
+        }
+        .base3{
+            margin-top: 50px;
+            margin-bottom: 50px;    
+        }
+        .bordes{
+            border: none;
+            background: rgba(255, 255, 255, 0.28);
+            border-bottom: 1.5px solid black;
+        }
+        .bordes:focus{
+            border: none;
+            background: rgba(255, 255, 255, 0.28);
+            border-bottom: 1.5px solid rgb(163, 3, 3);
+        }
+        label.error{
+            color: red;
+            font-size: 0.7em;
+        }
+.main-container{
+    margin-top: 30px;
+}
+footer
+{
+    margin-top:40.5%;
+    width:100%;
+    height:50px;
+    background-color:#454343;
+    color: white;
+}
+/* animaciones*/
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+
+@-webkit-keyframes fadeInDownBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -2000px, 0);
+      transform: translate3d(0, -2000px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInDownBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -2000px, 0);
+      transform: translate3d(0, -2000px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInDownBig {
+    -webkit-animation-name: fadeInDownBig;
+    animation-name: fadeInDownBig;
+  }
+
+/* fonts */
